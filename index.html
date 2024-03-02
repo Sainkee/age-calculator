@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>age calculator</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="bg-gradient-to-r from-blue-300 to-slate-300">
+    <div class="md:absolute md:right-[10%] md:top-[10%] text-center">
+      <h1 class="text-6xl title font-semibold">AGE CALCULATOR</h1>
+    </div>
+    <div>
+      <div class="flex items-center justify-center my-[100px] mx-3">
+        <div
+          class="flex bg-black p-5 md:w-[40%] w-full justify-between rounded-md"
+        >
+          <input class="p-2 rounded-md w-[50%]" type="date" name="" id="date" />
+          <button class="p-2 rounded-md bg-white w-[35%]">Calculate</button>
+        </div>
+      </div>
+      <div class="flex justify-between mt-4 w-[95%] md:w-[40%] m-auto">
+        <div
+          class="w-[80px] bg-black text-white text-center p-5 rounded-md years"
+        >
+          <p>-</p>
+          <p>years</p>
+        </div>
+        <div
+          class="w-[80px] bg-black text-white text-center p-5 rounded-md month"
+        >
+          <p>-</p>
+          <p>month</p>
+        </div>
+        <div
+          class="w-[80px] bg-black text-white text-center p-5 rounded-md days"
+        >
+          <p>-</p>
+          <p>days</p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
