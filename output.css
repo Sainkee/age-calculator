@@ -558,12 +558,26 @@ video {
   margin-bottom: 100px;
 }
 
+.my-\[10\%\] {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.my-\[15\%\] {
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
 
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.mt-\[10\%\] {
+  margin-top: 10%;
 }
 
 .flex {
@@ -706,6 +720,14 @@ video {
 
   .md\:top-\[15\%\] {
     top: 15%;
+  }
+
+  .md\:top-\[10\%\] {
+    top: 10%;
+  }
+
+  .md\:top-\[100px\] {
+    top: 100px;
   }
 
   .md\:w-\[40\%\] {
