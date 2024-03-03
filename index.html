@@ -13,10 +13,22 @@
     <div>
       <div class="flex items-center justify-center my-[100px] mx-3">
         <div
-          class="flex bg-black p-5 md:w-[40%] w-full justify-between rounded-md"
+          class="flex bg-black p-5 md:w-[40%] w-full justify-between rounded-md items-baseline"
         >
-          <input class="p-2 rounded-md w-[50%]" type="date" name="" id="date" />
-          <button class="p-2 rounded-md bg-white w-[35%]">Calculate</button>
+          <fieldset class="w-full">
+            <legend class="text-white mb-2">Date of Birth:</legend>
+            <input
+              class="p-2 rounded-md w-[75%]"
+              type="date"
+              name="dob"
+              id="date"
+              placeholder="YYYY-MM-DD"
+            />
+          </fieldset>
+
+          <button class="p-2 h-[40px] rounded-md bg-white w-[35%]">
+            Calculate
+          </button>
         </div>
       </div>
       <div class="flex justify-between mt-4 w-[95%] md:w-[40%] m-auto">
